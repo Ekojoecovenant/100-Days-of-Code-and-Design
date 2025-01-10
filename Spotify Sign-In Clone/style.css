@@ -1,3 +1,40 @@
+/* Adding Spotify FONTS TO THE SITE */
+
+@font-face {
+    font-family: 'Spotify Mix';
+    src: url('fonts/SpotifyMix-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spotify Mix';
+    src: url('fonts/SpotifyMix-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spotify Mix';
+    src: url('fonts/SpotifyMix-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spotify Mix';
+    src: url('fonts/SpotifyMix-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spotify Mix';
+    src: url('fonts/SpotifyMix-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +42,105 @@
 }
 
 body {
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Spotify Mix';
+    font-weight: 500;
+    padding: 50px 0;
+}
+
+.root {
     background-color: black;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.input-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-space {
+    height: 50px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 20%);
+    margin: 50px auto;
+}
+
+.image {
+    width: 60px;
+    margin: 5px;
+}
+
+.text-title {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid hsl(0, 0%, 50%);
+    width: 550px;
+    height: 80px;
+    left: 20px;
+    border-radius: 100px;
+    margin: 5px;
+}
+
+
+
+
+
+
+.continue-signin {
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.link-space {
+    width: 40px;
+}
+
+.icon {
+    width: 35px;
+    padding-left: 20px;
+    margin-left: 30px;
+
+}
+
+.apple-i {
+    width: 45px;
+    padding: 0 15px;
 }
