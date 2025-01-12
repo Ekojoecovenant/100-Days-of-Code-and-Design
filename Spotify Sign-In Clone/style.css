@@ -42,33 +42,35 @@
 }
 
 body {
-    background-color: hsl(0, 0%, 20%);
+    /* background-color: hsl(0, 0%, 20%); */
+    background-color: hsl(0, 0%, 13%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Spotify Mix';
     font-weight: 500;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .root {
-    background-color: black;
+    background-color: hsl(0, 0%, 7%);
     padding-top: 50px;
-    padding-bottom: 40px;
-    width: 1250px;
+    padding-bottom: 80px;
+    width: 1220px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-bottom: 50px;
 }
 
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 800px;
+    width: 900px;
 }
 
 .input-details {
@@ -92,12 +94,13 @@ body {
 hr {
     width: 100%;
     border: 1px solid hsl(0, 0%, 20%);
-    margin: 50px auto;
+    margin: 60px auto;
 }
 
 .image {
     width: 60px;
     margin: 5px;
+    margin-bottom: 10px;
 }
 
 .text-title {
@@ -117,20 +120,19 @@ hr {
     margin: 5px;
 }
 
-
-
-
-
+.signin:hover {
+    border: 1px solid hsl(0, 0%, 100%);
+}
 
 .continue-signin {
     padding: 0 20px;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 600;
     margin: 0 auto;
 }
 
 .link-space {
-    width: 40px;
+    width: 60px;
 }
 
 .icon {
@@ -143,4 +145,104 @@ hr {
 .apple-i {
     width: 45px;
     padding: 0 15px;
+}
+
+
+
+/* INPUT FIELDS */
+
+.input-details {
+    width: 550px;
+}
+
+.label {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.input {
+    border: 2px solid hsl(0, 0%, 50%);
+    width: 530px;
+    height: 80px;
+    left: 20px;
+    border-radius: 5px;
+    margin: 8px;
+    color: hsl(0, 0%, 50%);
+    background-color: hsl(0, 0%, 8%);
+    font-weight: 500;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+
+.input::placeholder {
+    color: hsl(0, 0%, 70%);
+    font-family: 'Spotify Mix';
+    font-weight: 400;
+}
+
+.input:hover {
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+/* BUTTON */
+
+button {
+    width: 550px;
+    height: 80px;
+    left: 20px;
+    border-radius: 100px;
+    margin: 5px;
+    background-color: rgb(30, 215, 96);
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Spotify Mix';
+    margin: 20px 0;
+}
+
+button:hover {
+    width: 570px;
+    height: 86px;
+    font-size: 27px;
+    background-color: rgb(30, 238, 103);
+    margin: 17px 0;
+
+}
+
+/* FORGOT PASSWORD AND SIGN UP LINK */
+.text {
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(0, 0%, 70%);
+    margin: 30px 0;
+}
+
+.text a:hover {
+    color: rgb(30, 238, 103);
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 140px;
+    background-color: hsl(0, 0%, 7%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-text {
+    font-size: 19px;
+    font-weight: 400;
+    color: hsl(0, 0%, 70%);
+}
+
+.last-text a {
+    color: hsl(0, 0%, 70%);
 }
